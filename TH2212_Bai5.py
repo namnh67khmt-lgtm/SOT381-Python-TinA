@@ -4,7 +4,7 @@ def tinh_ketqua(n):
         tu_so += i
 
     mau_so = 0
-    for i in range(2, n + 1, 2):
+    for i in range(2, n + 2, 2):
         mau_so += i
 
     ket_qua = tu_so / mau_so
